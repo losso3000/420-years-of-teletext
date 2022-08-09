@@ -1,0 +1,22 @@
+420 years of Teletext
+
+A Teletext demo for your Raspberry Pi and your old TV.
+Preferably very old TVs, "modern" TVs (~2000 and later)
+often only support a page refresh rate of 3 fps. I
+wish I was joking.
+
+Huge thanks to Alistair Buxton for "raspi-telext", see:
+https://github.com/ali1234/raspi-teletext
+
+Coded in kotlin, so this requires a JRE to run on the
+Raspberry. To run:
+
+$ cd raspi-teletext
+$ (make and stuff...)
+$ sudo ./tvctl on
+$ nc -l 2000 | ./teletext -
+
+And in parallel:
+
+$ java -cp teletext-tools DemoRunnerKt -host 127.0.0.1 -port 2000 -fps 25 -time false -audio true
+

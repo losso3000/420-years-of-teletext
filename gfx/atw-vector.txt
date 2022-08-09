@@ -1,0 +1,118 @@
+P 428,044 # point  0
+P 410,044 # point  1
+P 399,056 # point  2
+P 035,723 # point  3
+P 030,740 # point  4
+P 038,752 # point  5
+P 050,760 # point  6
+P 786,760 # point  7
+P 800,752 # point  8
+P 808,744 # point  9
+P 806,723 # point 10
+P 440,055 # point 11
+P 427,153 # point 12
+P 412,153 # point 13
+P 120,687 # point 14
+P 127,699 # point 15
+P 710,699 # point 16
+P 718,686 # point 17
+P 476,283 # point 18
+P 412,277 # point 19
+P 386,290 # point 20
+P 370,284 # point 21
+P 355,290 # point 22
+P 358,304 # point 23
+P 397,342 # point 24
+P 415,406 # point 25
+P 416,419 # point 26
+P 383,472 # point 27
+P 381,535 # point 28
+P 350,612 # point 29
+P 348,642 # point 30
+P 335,680 # point 31
+P 354,669 # point 32
+P 363,648 # point 33
+P 374,605 # point 34
+P 407,617 # point 35
+P 446,611 # point 36
+P 455,646 # point 37
+P 451,663 # point 38
+P 467,682 # point 39
+P 485,680 # point 40
+P 467,641 # point 41
+P 468,463 # point 42
+P 466,437 # point 43
+P 479,385 # point 44
+P 479,374 # point 45
+P 490,357 # point 46
+P 478,336 # point 47
+P 478,317 # point 48
+P 488,297 # point 49
+P 446,294 # point 50
+P 469,295 # point 51
+P 458,317 # point 52
+P 421,496 # point 53
+P 399,559 # point 54
+P 386,593 # point 55
+P 412,599 # point 56
+P 444,598 # point 57
+P 437,519 # point 58
+L 00,01 col 0
+L 01,02 col 0
+L 02,03 col 0
+L 03,04 col 0
+L 04,05 col 0
+L 05,06 col 0
+L 06,07 col 0
+L 07,08 col 0
+L 08,09 col 0
+L 09,10 col 0
+L 10,11 col 0
+L 11,00 col 0
+L 13,14 col 0
+L 14,15 col 0
+L 15,16 col 0
+L 16,17 col 0
+L 17,12 col 0
+L 12,13 col 0
+L 19,20 col 0
+L 20,21 col 0
+L 21,22 col 0
+L 22,23 col 0
+L 23,24 col 0
+L 24,25 col 0
+L 25,26 col 0
+L 26,27 col 0
+L 27,28 col 0
+L 28,29 col 0
+L 29,30 col 0
+L 30,31 col 0
+L 31,32 col 0
+L 32,33 col 0
+L 33,34 col 0
+L 34,35 col 0
+L 35,36 col 0
+L 36,37 col 0
+L 37,38 col 0
+L 38,39 col 0
+L 39,40 col 0
+L 40,41 col 0
+L 41,42 col 0
+L 42,43 col 0
+L 43,44 col 0
+L 44,45 col 0
+L 45,46 col 0
+L 46,47 col 0
+L 47,48 col 0
+L 48,49 col 0
+L 49,18 col 0
+L 18,19 col 0
+L 50,51 col 0
+L 51,52 col 0
+L 52,50 col 0
+L 53,54 col 0
+L 54,55 col 0
+L 55,56 col 0
+L 56,57 col 0
+L 57,58 col 0
+L 58,53 col 0
