@@ -61,8 +61,14 @@ If you squint, you can even make out the page structure (here shown as an overla
 ![Teletext data in video signal](gfx/teletextdata.gif)
 
 raspi-teletext only takes care of the so-called clock run-in and sends the rest
-of the data as-is. Each Teletext packet consists of 42 bytes and makes up a row
+of the data as-is. (*) Each Teletext
+packet consists of 42 bytes and makes up a row
 of Teletext display (roughly speaking). See: [Packet format](packet-format.md)
+
+> (*) EDIT: Of course, raspi-teletext takes care of more than that. This is to clarify that packet-wise,
+> 2 bytes of clock run-in and 1 byte of framing code
+> are not counted from here on, while the Teletext spec always views a line (packet) of Teletext data as
+> a unit of 360 bits resp. 45 bytes.
 
 Mode of operation:
 * Each frame is rendered into a 40×24 buffer of 7-bit chars
@@ -191,6 +197,18 @@ If he hadn't dug up and tested his childhood TV, the whole demo would have been 
 * Wasted effort, or rather,  easter egg for the eagle-eyed: the ProTracker effect shows the actual notes of [mod.demons soundtrack](http://janeway.exotica.org.uk/release.php?id=269)
   (but not the samples...), thanks to OpenMPTs paste-as-text support. :)
 
+## Music
+
+The first [rough cut](https://www.youtube.com/watch?v=uMuMiAIEZts) of the overall demo was only ready five days before the deadline (with
+some placeholders and without the end part). Yet, bod managed to cook up a [superb track](sfx/teletext_demo2.wav) in
+record time, and also take the flow of effects into account with different
+in-song themes and swhooshes and dribbles (if these are the correct technical
+terms).
+
+Syncing was done by hand, closely monitoring the frame counts and timestamps,
+restarting single effects. Already having an awesome tune availabe to sync to,
+this was a lot of fun to fiddle with!
+
 
 ## Caveats
 
@@ -202,7 +220,8 @@ If he hadn't dug up and tested his childhood TV, the whole demo would have been 
   `Clip.getMicrosecondPosition()` on the Raspberry Pi at all costs! Somehow that [takes up to 900 milliseconds](https://stackoverflow.com/questions/53189006/java-audio-clipgetframeposition-very-slow-on-raspberry-pi) instead
   of 0.x milliseconds. Very glad I noticed that even on my slow 3-fps test TV... Of course, this
   came up during syncing, i.e. the final stages of the demomaking process. Fun!
-
+* Some "early" effects are not fps-agnostic; the D.O.C demo scroller will
+  crawl in slow-motion when run in 3 fps.
 
 ## Project log
 
