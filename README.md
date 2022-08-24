@@ -197,6 +197,14 @@ If he hadn't dug up and tested his childhood TV, the whole demo would have been 
 * Wasted effort, or rather,  easter egg for the eagle-eyed: the ProTracker effect shows the actual notes of [mod.demons soundtrack](http://janeway.exotica.org.uk/release.php?id=269)
   (but not the samples...), thanks to OpenMPTs paste-as-text support. :)
 
+(EDIT) A somewhat funny "discovery" came up after the party: The reference
+to [Demons are forever](https://www.pouet.net/prod.php?which=7066) might not be as
+obvious as I thought. Being one of the very first Amiga demos that got me
+hooked on this mysterious demoscene, erm, scene, it didn't occur to me that
+you can somehow *not* know that demo. :)
+
+![DOC demo](gfx/doc-demo.jpg)![DOC demo in Teletext](gfx/doc-demo-text.jpg)
+
 ## Music
 
 The first [rough cut](https://www.youtube.com/watch?v=uMuMiAIEZts) of the overall demo was only ready five days before the deadline (with
